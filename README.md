@@ -22,3 +22,8 @@ Open `review.html` for a visual table of contents.
 ## v4 pass
 - Updated site framing from lookbook-only to broader Round Mountain Retreat weddings/events + stay context.
 - Refined hero and CTA copy for direct booking intent.
+
+## v5 pass
+- Reshaped homepage flow to lead with booking path: tour, inquiry, stay availability.
+- Added conversion-focused booking and contact blocks with clearer CTAs.
+- Tightened copy for forest retreat tone and improved section hierarchy.

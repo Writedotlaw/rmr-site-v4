@@ -127,8 +127,8 @@ h3 {
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.panel--quote .panel__inner {
-  grid-template-columns: repeat(10, minmax(0, 1fr));
+.panel--booking .panel__inner {
+  align-items: start;
 }
 
 .quote-block {
@@ -154,8 +154,12 @@ h3 {
   color: var(--sand);
 }
 
-.panel--quote .panel__content {
-  grid-column: 6 / span 5;
+.panel--booking .panel__content {
+  grid-column: 1 / span 7;
+}
+
+.panel--booking .quote-block {
+  grid-column: 8 / span 5;
 }
 
 .panel--collage .panel__content {
@@ -214,6 +218,58 @@ h3 {
 
 .panel--contact .panel__media {
   grid-column: 7 / span 6;
+}
+
+.hero-note {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(246, 240, 232, 0.7);
+}
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.booking-card {
+  padding: 1.6rem;
+  border-radius: 22px;
+  background: rgba(12, 20, 18, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  display: grid;
+  gap: 1rem;
+}
+
+.booking-card p {
+  color: rgba(246, 240, 232, 0.75);
+  font-size: 0.95rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.contact-card {
+  padding: 1.6rem;
+  border-radius: 22px;
+  background: rgba(12, 20, 18, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-card p {
+  color: rgba(246, 240, 232, 0.75);
+  font-size: 0.95rem;
+}
+
+.contact-inline {
+  margin-top: 1.5rem;
 }
 
 .eyebrow {
@@ -680,7 +736,7 @@ h3 {
   .panel__content,
   .panel__media,
   .panel--hero .hero__aside,
-  .panel--quote .panel__content,
+  .panel--booking .panel__content,
   .panel--collage .collage,
   .panel--packages .package-grid,
   .panel--timeline .timeline,
@@ -726,6 +782,8 @@ h3 {
   }
 
   .card-row,
+  .booking-grid,
+  .contact-grid,
   .package-grid,
   .testimonial-grid,
   .season-grid,
