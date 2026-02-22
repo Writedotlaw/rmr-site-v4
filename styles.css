@@ -805,3 +805,16 @@ h3 {
     transition: none;
   }
 }
+
+
+/* mobile optimization pass */
+@media (max-width: 768px) {
+  .panel { padding: 2rem 1.25rem; }
+  .panel__content { max-width: 100%; }
+  .cta-row { width: 100%; }
+  .cta-row .btn { width: 100%; text-align: center; }
+  .hero__aside { padding: 1.25rem; }
+  h1 { font-size: clamp(2.1rem, 8vw, 2.8rem); }
+  h2 { font-size: clamp(1.6rem, 6vw, 2.2rem); }
+  .review-thumb { height: 180px; }
+}
