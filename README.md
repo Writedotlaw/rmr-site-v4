@@ -16,3 +16,4 @@ Open `review.html` for a visual table of contents.
 - Copy has been tightened for conversion-focused elegance.
 - Added cinematic overlays, split layouts, collage sections, package cards, timeline strip, and testimonial cards.
 - Improved mobile stacking and simplified nav patterns for smaller screens.
+- Forest/fairy vibe alignment pass: evergreen/teal palette, misty neutrals, woodland imagery, and forest-forward copy.
