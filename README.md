@@ -17,3 +17,8 @@ Open `review.html` for a visual table of contents.
 - Added cinematic overlays, split layouts, collage sections, package cards, timeline strip, and testimonial cards.
 - Improved mobile stacking and simplified nav patterns for smaller screens.
 - Forest/fairy vibe alignment pass: evergreen/teal palette, misty neutrals, woodland imagery, and forest-forward copy.
+
+
+## v4 pass
+- Updated site framing from lookbook-only to broader Round Mountain Retreat weddings/events + stay context.
+- Refined hero and CTA copy for direct booking intent.
